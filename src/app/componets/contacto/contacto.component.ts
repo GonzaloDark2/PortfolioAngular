@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './contacto.component.css'
 })
 export class ContactoComponent {
-
+  correo = "gonzalodarkangel2@mail.com"
 }

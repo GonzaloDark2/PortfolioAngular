@@ -9,14 +9,15 @@
   align-items: center;
 }
 .inicio .contenido-banner{
-  padding: 20px;
+  padding: 10px;
   background-color: #1e2326;
-  max-width: 350px;
+  max-width: 300px;
   margin: auto;
   text-align: center;
   border-radius: 40px;
 }
 .inicio .contenido-banner img{
+
   margin-top: 40px;
   border: 10px solid #1CB698;
   display: block;

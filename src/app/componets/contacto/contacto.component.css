@@ -60,15 +60,18 @@
   width: 100%;
 }
 .contacto .col img{
-  width: 100%;
+  width: 115%;
+  height: 75%;
+  padding: 50px;
+
 }
 .contacto .col .info{
   position: absolute;
-  top: 40%;
+  top: 30%;
   background-color: #252A2E;
-  padding: 20px;
-  max-swidth: 350px;
-  left: 50%;
+  padding: 30px;
+
+  left: 60%;
   transform: translate(-50%, -50%);
 }
 .contacto .col .info ul{

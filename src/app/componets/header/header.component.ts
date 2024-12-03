@@ -8,5 +8,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  foto4x4 = "../header/gonza4x4.jpg"
+  foto = '../header/gonza4x4.jpg'
+  
 }

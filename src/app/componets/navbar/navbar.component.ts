@@ -8,10 +8,14 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
-  mostrarMenuResponsive = false;
 
-  mostrarOcultarMenu() {
-    this.mostrarMenuResponsive = !this.mostrarMenuResponsive;
+
+  menuVisible = true;
+
+  // Función que oculta o muestra el menú
+  mostrarOcultarMenu(): void {
+    this.menuVisible = !this.menuVisible;
   }
+
 
 }
