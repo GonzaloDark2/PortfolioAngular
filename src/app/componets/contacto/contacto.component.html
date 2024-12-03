@@ -4,6 +4,7 @@
       <h2>CONTACTO</h2>
       <div class="fila">
           <!-- Formulario -->
+
           <div class="col">
               <input type="text" placeholder="Tú Nombre">
               <input type="text" placeholder="Número telefónico">
@@ -15,6 +16,22 @@
                   <span class="overlay"></span>
               </button>
           </div>
+           <!--
+          <form (ngSubmit)="onSubmit()" #form="ngForm">
+
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" [(ngModel)]="formData.name" required>
+
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" [(ngModel)]="formData.email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" [(ngModel)]="formData.message" required></textarea>
+
+            <button type="submit" [disabled]="!form.valid">Enviar</button>
+
+          </form> -->
+
           <!-- Mapa -->
           <div class="col">
               <img src="img/gps.jpg" alt="gps">
@@ -22,11 +39,13 @@
                   <ul>
                       <li>
                           <i class="fa-solid fa-location-dot"></i>
-                          A. Valentini 1768, Mar del Plata
+                         A. Valentini 1768,
+                         <p>Mar del Plata</p>
                       </li>
                       <li>
                           <i class="fa-solid fa-mobile-screen"></i>
-                          Llamanos: 2235 - 520696
+                          Teléfono: 2235 - 520696
+
                       </li>
                       <li>
                           <i class="fa-solid fa-envelope"></i>
