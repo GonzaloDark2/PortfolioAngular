@@ -26,6 +26,23 @@
   margin: 10px;
   cursor: pointer;
 }
+/*
+------------
+*/
+.portfolio button{
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #fff;
+  width: fit-content;
+  display: block;
+  margin: 25px auto;
+  padding: 12px 5px;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+}
+
 .portfolio .galeria .proyecto img{
   width: 100%;
   display: block;
